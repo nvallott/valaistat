@@ -1,0 +1,48 @@
+body{
+  padding-top: 100px;
+}
+
+.label{
+  font-weight: normal;
+  font-size: 10px;
+  stroke:0;
+}
+
+.svgTitle{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+div.tooltip {
+    color: #222;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    opacity: 0.9;
+    font-size:11px;
+    font-family: Helvetica;
+    position:absolute;
+}
+
+.legendTitle{
+  fill: black;
+  stroke : none;
+}
+
+.axisLabelX {
+  fill: #000;
+}
+
+.axisLabelY {
+  fill: #000;
+}
